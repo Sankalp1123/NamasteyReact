@@ -1,0 +1,68 @@
+to create an h1 tag in javascript is can be done by initializing document.craeteElement (h1) to a variable using 'const' datatype
+
+to write into console we have to write :heading.innerHTML="Hello world";
+
+to access that we need to get element by using const root = document.getElementBYId("root") [Root is the id given to the div of HTML]
+
+to get this ,we need to write root.appendChild(heading);
+
+
+<div id="root"></div>
+    <script>
+        const heading = document.createElement("h1");
+        heading.innerHTML="Hello World from Javascript";
+        const root = document.getElementById("root");
+        root.appendChild(heading);
+    </script>
+
+
+to create cdac file in the html we need to understand about CDN: contect delivery network: these are the websites where react can be hosted
+
+What is CDN and Why do we use CDN in software Engineering??
+What is crossorigin written the CDN link??
+
+
+By copying the links,we have react in our program
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+
+
+
+syntax to add hello world in react
+
+<script>
+    const heading= React.createElement("h1",{},"")
+</script> 
+
+
+basically,
+	the first must be a tag,second must be an objects used to give attributes to our class and third is the data that we have to enter
+
+
+<script>
+    const heading= React.createElement("h1",{},"Hello world from react ");
+    const root = ReactDOM.createRoot(document.getElementById("root"));
+    root.render(heading);
+</script>
+
+
+
+
+<script src="./app.js"></script> ::this is how to link js file to html script tag
+
+
+react as alibrary because,react can be applied to small porition of page header and footer
+
+framework which comes with all load of things
+
+
+
+
+
+
+
+
+
+
